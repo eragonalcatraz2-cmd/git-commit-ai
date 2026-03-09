@@ -1,7 +1,7 @@
 {
   "name": "git-commit-ai",
-  "version": "1.0.0",
-  "description": "AI-powered git commit message generator",
+  "version": "1.0.1",
+  "description": "AI-powered git commit message generator with security protections",
   "main": "index.js",
   "bin": {
     "git-commit-ai": "./index.js"
@@ -9,11 +9,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["git", "commit", "ai", "cli"],
+  "keywords": [
+    "git",
+    "commit",
+    "ai",
+    "cli",
+    "conventional-commits",
+    "security"
+  ],
   "author": "Automaton",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eragonalcatraz-openclaw1/git-commit-ai.git"
+    "url": "https://github.com/eragonalcatraz2-cmd/git-commit-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eragonalcatraz2-cmd/git-commit-ai/issues"
+  },
+  "homepage": "https://github.com/eragonalcatraz2-cmd/git-commit-ai#readme",
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
