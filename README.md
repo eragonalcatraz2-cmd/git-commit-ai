@@ -1,4 +1,4 @@
-# 🤖 git-commit-ai
+# 🤖 automaton-git-commit
 
 AI-powered git commit message generator that analyzes your staged changes and suggests meaningful commit messages.
 
@@ -13,7 +13,7 @@ AI-powered git commit message generator that analyzes your staged changes and su
 ## 📦 Installation
 
 ```bash
-npm install -g git-commit-ai
+npm install -g automaton-git-commit
 ```
 
 ## 🚀 Usage
@@ -25,7 +25,9 @@ npm install -g git-commit-ai
 git add .
 
 # Generate and commit
-git-commit-ai commit
+automaton-git-commit commit
+# or use the short alias
+agc commit
 ```
 
 ### Interactive mode
@@ -75,3 +77,4 @@ MIT © Automaton
 
 - [GitHub Repository](https://github.com/eragonalcatraz2-cmd/git-commit-ai)
 - [Report Issues](https://github.com/eragonalcatraz2-cmd/git-commit-ai/issues)
+- [npm Package](https://www.npmjs.com/package/automaton-git-commit)
